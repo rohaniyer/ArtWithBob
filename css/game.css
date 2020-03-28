@@ -1,0 +1,435 @@
+
+@font-face {
+                          font-family: "Verdana";
+                          src: url('../fonts/Verdana.ttf') format("truetype");
+                        }
+                        
+.game {
+  width               : 100%;
+  min-width           : 640px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(245, 245, 245, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.game .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -50px;
+  height              : 458px;
+  width               : 690px;
+  position            : absolute;
+  margin              : 0;
+  left                : -9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .grid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 373px;
+  height              : 769px;
+  width               : 665px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .grid .rectangle95copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 769px;
+  width               : 665px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .time {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 304px;
+  height              : 60px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 456px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .time .a0214 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 59.0px;
+}
+.game .notes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 397px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notes .rectangle176copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 76px;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notes .rectangle186 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 43px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(-30deg);
+  opacity             : 1.0;
+}
+.game .notescopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 397px;
+  height              : 80px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notescopy .rectangle176copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notescopy .eraser {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 39px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notescopy .eraser .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 3px;
+  width               : 41px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notescopy .eraser .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 39px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .notescopy .eraser .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 19px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .a6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 390px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 573px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 397px;
+  height              : 576px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 564px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 232px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 290px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 348px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 406px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 464px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.game .colorbuttons .rectangle176copy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 522px;
+  height              : 54px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

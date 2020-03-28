@@ -1,0 +1,361 @@
+
+@font-face {
+                          font-family: "Verdana";
+                          src: url('../fonts/Verdana.ttf') format("truetype");
+                        }
+                        
+.homecopy {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.homecopy .largebutton {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 500px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 422px;
+  align-items         : center;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.homecopy .largebutton-layout-container > * {
+  pointer-events      : auto;
+}
+.homecopy .largebutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebutton .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.homecopy .largebuttoncopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 500px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebuttoncopy-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 588px;
+  align-items         : center;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.homecopy .largebuttoncopy-layout-container > * {
+  pointer-events      : auto;
+}
+.homecopy .largebuttoncopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebuttoncopy .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .largebuttoncopy .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.homecopy .logo {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 373px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .logo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5px;
+  align-items         : center;
+  height              : 373px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.homecopy .logo-layout-container > * {
+  pointer-events      : auto;
+}
+.homecopy .logo .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 373px;
+  width               : 373px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.homecopy .logo .logo1 .art {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.homecopy .logo .logo1 .bobross {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 87.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 109.0px;
+}
+.homecopy .logo .logo1 .with {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+.homecopy .logo .logo1 .pinclipartcombobrossclipart4177310 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 278px;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

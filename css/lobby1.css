@@ -1,0 +1,498 @@
+
+@font-face {
+                          font-family: "Verdana";
+                          src: url('../fonts/Verdana.ttf') format("truetype");
+                        }
+                        
+.lobby1 {
+  width               : 100%;
+  min-width           : 640px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.lobby1 .lobby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 506px;
+  height              : 630px;
+  width               : 640px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 630px;
+  width               : 640px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby .largebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 450px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby .largebutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby .largebutton .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby .largebutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.lobby1 .roomcode {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 249px;
+  height              : 90px;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode .rectangle {
+  background-color    : rgba(41, 121, 255, 0.1);
+  top                 : 0px;
+  height              : 90px;
+  box-sizing          : border-box;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(32, 96, 204, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode .x242yz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Verdana", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 73.0px;
+}
+.lobby1 .roomcode .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 88px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode .copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 56px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 309px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode .copy1 .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  border-radius       : 2px;
+  border-style        : solid;
+  border-width        : 3px;
+  border-color        : rgba(50, 50, 50, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode .copy1 .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .onelinelogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 86px;
+  width               : 556px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .onelinelogo .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 556px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .onelinelogo .logo .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 556px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .onelinelogo .logo .logo1 .artwbobross {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : left;
+  line-height         : 75.0px;
+}
+.lobby1 .onelinelogo .logo .logo1 .pinclipartcombobrossclipart4177310 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .roomcode1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.lobby1 .smallbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : 100px;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .smallbutton .rectangle1copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .smallbutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 240px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 59.0px;
+}
+.lobby1 .smallbutton .share {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 48px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 303px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .smallbutton .share .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 26px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .smallbutton .share .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .smallbutton .share .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 30px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobby1 .lobby11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 530px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.lobby1 .thislobbyisempty {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 634px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(50, 50, 50, 0.57);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

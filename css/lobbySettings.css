@@ -1,0 +1,509 @@
+
+@font-face {
+                          font-family: "Verdana";
+                          src: url('../fonts/Verdana.ttf') format("truetype");
+                        }
+                        
+.lobbysettings {
+  width               : 100%;
+  min-width           : 640px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.lobbysettings .lobby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 956px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .lobby .largebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .lobby .largebutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .lobby .largebutton .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .lobby .largebutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.lobbysettings .onelinelogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 86px;
+  width               : 556px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .onelinelogo .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 556px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .onelinelogo .logo .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 556px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .onelinelogo .logo .logo1 .artwbobross {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 122px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : left;
+  line-height         : 75.0px;
+}
+.lobbysettings .onelinelogo .logo .logo1 .pinclipartcombobrossclipart4177310 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 86px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .hostagame {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.lobbysettings .setting {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 263px;
+  height              : 63px;
+  width               : 562px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 562px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings .setting1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 562px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings .setting1 .videochat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 52.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : left;
+  line-height         : 66.0px;
+}
+.lobbysettings .setting .settings .setting1 .switch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 58px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 385px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings .setting1 .switch .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings .setting1 .switch .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .setting .settings .setting1 .switch .on {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.lobbysettings .setting .settings .setting1 .switch .off {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.lobbysettings .settingcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 342px;
+  height              : 63px;
+  width               : 562px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 562px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings .setting1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 63px;
+  width               : 562px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings .setting1 .videochat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 52.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : left;
+  line-height         : 66.0px;
+}
+.lobbysettings .settingcopy .settings .setting1 .switch {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 58px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 385px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings .setting1 .switch .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 177px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings .setting1 .switch .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 58px;
+  width               : 90px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.lobbysettings .settingcopy .settings .setting1 .switch .on {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.lobbysettings .settingcopy .settings .setting1 .switch .off {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}

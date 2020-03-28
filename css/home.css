@@ -1,0 +1,363 @@
+
+@font-face {
+                          font-family: "Verdana";
+                          src: url('../fonts/Verdana.ttf') format("truetype");
+                        }
+                        
+.home {
+  width               : 100%;
+  min-width           : 640px;
+  height              : 100vh;
+  min-height          : 1136px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.home .smallbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 980px;
+  height              : 100px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 120px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .smallbutton .rectangle1copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .smallbutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 59.0px;
+}
+.home .largebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 798px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebutton .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebutton .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebutton .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.home .largebuttoncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 648px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebuttoncopy .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebuttoncopy .rectangle1copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .largebuttoncopy .text {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 98px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.home .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 569px;
+  width               : 512px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .logo .logo1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 569px;
+  width               : 512px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.home .logo .logo1 .art {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 110.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 138.0px;
+}
+.home .logo .logo1 .bobross {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 429px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 117.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 146.0px;
+}
+.home .logo .logo1 .with {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 373px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 188px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Phosphate-Solid", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(50, 50, 50, 1.0);
+  text-align          : center;
+  line-height         : 75.0px;
+}
+.home .logo .logo1 .pinclipartcombobrossclipart4177310 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 439px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
